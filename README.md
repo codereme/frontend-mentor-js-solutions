@@ -37,7 +37,8 @@ box-shadow: 8px 8px 0 var(--gray-950), 0 0 0 1px var(--gray-950);
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-blog-preview-card-PSsvCYF15u](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-PSsvCYF15u)
+
 - Live Site URL: [https://codereme.github.io/blog-preview-card](https://codereme.github.io/blog-preview-card)
 
 ## Author
