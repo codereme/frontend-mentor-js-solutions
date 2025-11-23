@@ -15,7 +15,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## What I learned
 
-- Adaptive image cropping: Using image container `height` and blog image `object=fit: cover` to show different image sections - a cropped portion on mobile vs. the complete image on desktop.
+- Adaptive image cropping: Using image container `height` and blog image `object-fit: cover` to show different image sections - a cropped portion on mobile vs. the complete image on desktop.
 
 ```css
 .img-container {
