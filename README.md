@@ -1,47 +1,28 @@
-# Blog Preview Card
+# Frontend Mentor JS Solutions
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+## Interactive Rating Component
 
-## Built with
+<div>
+<a href="https://codereme.github.io/frontend-mentor-js-solutions/interactive-rating-component/index.html">Demo</a> |
+<a href="https://github.com/codereme/frontend-mentor-js-solutions/tree/main/interactive-rating-component">Code</a>
+</div>
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
+![Preview](./interactive-rating-component/design/preview.jpg)
 
-## Screenshot
+## NFT Preview Card Component
 
-![Desktop screenshot](./assets/images/screenshot.png)
+<div>
+<a href="https://codereme.github.io/frontend-mentor-js-solutions/nft-preview-card-component/index.html">Demo</a> |
+<a href="https://github.com/codereme/frontend-mentor-js-solutions/tree/main/nft-preview-card-component">Code</a>
+</div>
 
-## What I learned
+![Preview](./nft-preview-card-component/design/preview.jpg)
 
-- Adaptive image cropping: Using image container `height` and blog image `object=fit: cover` to show different image sections - a cropped portion on mobile vs. the complete image on desktop.
+## Ping Coming Soon Page
 
-```css
-.img-container {
-  width: 100%;
-  height: 12.5rem;
-}
-.blog-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-```
+<div>
+<a href="https://codereme.github.io/frontend-mentor-js-solutions/ping-coming-soon-page/index.html">Demo</a> |
+<a href="https://github.com/codereme/frontend-mentor-js-solutions/tree/main/ping-coming-soon-page">Code</a>
+</div>
 
-- How to apply stylish borders to the card using `box-shadow`
-
-```css
-box-shadow: 8px 8px 0 var(--gray-950), 0 0 0 1px var(--gray-950);
-```
-
-## Links
-
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-blog-preview-card-PSsvCYF15u](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-PSsvCYF15u)
-
-- Live Site URL: [https://codereme.github.io/blog-preview-card](https://codereme.github.io/blog-preview-card)
-
-## Author
-
-- Frontend Mentor - [@codereme](https://www.frontendmentor.io/profile/codereme)
-- Github - [@codereme](https://github.com/codereme)
+![Preview](./ping-coming-soon-page/design/preview.jpg)

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <meta name="description" content="Solution to Ping coming soon page challenge on Frontend Mentor">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <div class="page-container">
+    <header>
+      <div class="container">
+        <img class="logo" src="./images/logo.svg" alt="Logo Pin" width="86" height="26">
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="content-text">
+            <h1 class="title">We are launching <span>soon!</span></h1>
+            <p class="description">Subscribe and get notified</p>
+          </div>
+
+          <form class="form" novalidate>
+            <div class="input-group">
+              <label class="sr-only" for="email-input">
+                Email address
+              </label>
+              <input class="input" type="email" id="email-input" placeholder="Your email address...">
+              <p class="error-message"></p>
+            </div>
+            <button class="button" type="submit" id="btn-subscribe">
+              Notify me
+            </button>
+          </form>
+
+          <div class="img-container">
+            <img class="stats-img" src="./images/illustration-dashboard.png"
+              alt="A dashboard showing website statistics" fetchpriority="high">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <nav class="footer-nav">
+          <ul class="social-list">
+            <li>
+              <a class="social-link" href="#" aria-label="Go to Facebook">
+                <svg class="social-icon" aria-hidden="true">
+                  <use href="./images/icons/social-icons.svg#id-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="#" aria-label="Go to Twitter">
+                <svg class="social-icon" aria-hidden="true">
+                  <use href="./images/icons/social-icons.svg#id-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="#" aria-label="Go to Instagram">
+                <svg class="social-icon" aria-hidden="true">
+                  <use href="./images/icons/social-icons.svg#id-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <small class="attribution">
+          &copy; Copyright Ping. All rights reserved.
+        </small>
+      </div>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
