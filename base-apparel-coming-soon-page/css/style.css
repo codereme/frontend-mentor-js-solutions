@@ -13,7 +13,7 @@
 
   /* Gradients */
 
-  --body-gradient-header: linear-gradient(
+  --body-gradient: linear-gradient(
     25deg,
     hsl(0, 83%, 99%) 25%,
     hsl(0, 80%, 100%) 35%,
@@ -50,8 +50,9 @@
 
   /* Spacings */
   --spacing-sm: clamp(0.5rem, 1vw, 0.75rem);
-  --spacing-md: clamp(1rem, 4vw, 2rem);
-  --spacing-xl: clamp(2rem, 4vw, 3rem);
+  --spacing-md: clamp(1rem, 2vw, 1.5rem);
+  --spacing-lg: clamp(2rem, 3vw, 2.5rem);
+  --spacing-xl: clamp(2.5rem, 5vw, 6rem);
 
   /* Border radius */
   --border-radius-lg: 50px;
@@ -59,6 +60,7 @@
   /* Box shadow */
   --shadow-subtle: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
 }
+
 /* Utilities */
 .sr-only {
   /* Visually hides element but keeps it accesible for screen readers */
@@ -100,7 +102,7 @@ body {
 
 /* Images */
 .logo {
-  inline-size: clamp(7rem, 10vw, 12.5rem);
+  inline-size: clamp(7rem, 15vw, 12rem);
 }
 .hero-img {
   inline-size: 100%;
