@@ -9,7 +9,6 @@
 
 ![Preview](./interactive-rating-component/design/preview.jpg)
 
-
 ## Ping Coming Soon Page
 
 <div>
@@ -18,3 +17,7 @@
 </div>
 
 ![Preview](./ping-coming-soon-page/design/preview.jpg)
+
+## Base Apparel Coming Soon Page
+
+![Preview](./base-apparel-coming-soon-page/design/preview.jpg)
