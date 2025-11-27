@@ -1,24 +1,24 @@
 .form {
   inline-size: 100%;
-  max-inline-size: 400px;
-  padding: 20px 0;
+  max-inline-size: 30rem;
+  padding-block: var(--spacing-sm);
 }
 .form-group {
   inline-size: 100%;
-  margin-block-end: 16px;
 }
 .input-group {
   position: relative; /* for btn-submit */
 
   inline-size: 100%;
-  max-inline-size: 400px;
+  max-inline-size: 30rem;
 }
 .input {
   inline-size: 100%;
   min-inline-size: 0;
 
-  padding: 1rem;
-  font-size: 1rem;
+  padding: var(--spacing-sm); /* same button paading */
+  font-size: var(--fs-md);
+
   border: 1px solid var(--pink-400);
   outline: none;
   border-radius: var(--border-radius-lg);
@@ -34,7 +34,7 @@
   transform: translateY(-50%);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   pointer-events: none;
 }
 .error-icon {
@@ -47,7 +47,8 @@
   align-items: center;
   justify-content: center;
 
-  padding: 1rem var(--spacing-md);
+  width: clamp(4rem, 5vw, 6rem);
+  padding: clamp(0.7rem, 1.5vw, 0.8rem);
 
   border: none;
   border-radius: var(--border-radius-lg);
@@ -63,11 +64,13 @@
 }
 .error-message {
   opacity: 0;
-  padding: 0 12px;
+  padding: 0 0.75rem;
 
-  margin-top: 8px;
+  margin-block-start: 0.5rem;
   inline-size: 100%;
-  max-inline-size: 400px;
+  max-inline-size: 30rem;
+
+  font-size: var(--fs-md);
   text-align: left;
   color: var(--red-500);
 }
