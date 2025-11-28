@@ -22,7 +22,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-coming-soon-page-with-email-validation-iW9majYJF8](https://www.frontendmentor.io/solutions/responsive-coming-soon-page-with-email-validation-iW9majYJF8)
 
 - Live Site URL: [https://codereme.github.io/frontend-mentor-js-solutions/base-apparel-coming-soon-page/index.html](https://codereme.github.io/frontend-mentor-js-solutions/base-apparel-coming-soon-page/index.html)
 
