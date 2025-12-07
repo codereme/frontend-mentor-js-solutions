@@ -5,32 +5,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Interactive rating component</title>
+
   <meta name="description" content="Solution to Interactive rating component challenge on Frontend Mentor">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/form.css">
+
   <script src="./main.js" defer></script>
 </head>
 
 <body>
   <main>
     <div class="container">
+
       <article class="card" id="ratingCard">
-        <div class="content">
-          <div class="icon-container">
-            <img class="icon-star" src="./images/icon-star.svg" alt="icon star" width="14" height="14"
-              aria-hidden="true">
+
+        <div class="card__content">
+          <div class="card__icon-container">
+            <img src="./images/icon-star.svg" alt="icon star" width="14" height="14" aria-hidden="true">
           </div>
+
           <h1 class="card__title">How did we do?</h1>
+
           <p class="card__description">
             Please let us know how we did with your support request. All feedback is appreciated to help us improve our
             offering!
           </p>
+
           <form id="ratingForm" novalidate>
             <fieldset class="options__fieldset">
               <legend class="sr-only">Rate our service from 1 to 5</legend>
+
               <div class="options__container">
                 <input type="radio" name="rate" value="1" id="rate1" aria-label="One star - Poor">
                 <label for="rate1" class="option"> 1 </label>
@@ -47,27 +59,39 @@
                 <input type="radio" name="rate" value="5" id="rate5" aria-label="Five stars - Excellent">
                 <label for="rate5" class="option"> 5 </label>
               </div>
+
             </fieldset>
 
             <button class="button button--submit" type="submit" id="btnSubmit" aria-describedby="submit-help">
               Submit
             </button>
-            <div id="submit-help" class="sr-only">Please select an option from 1 to 5 before submitting</div>
+
+            <div id="submit-help" class="sr-only">
+              Please select an option from 1 to 5 before submitting
+            </div>
+
           </form>
+
         </div>
       </article>
 
       <article class="card card--confirmation hidden" id="confirmationCard">
-        <div class="content content--confirmation">
-          <div class="img-container">
+
+        <div class="card__content card__content--confirmation">
+
+          <div class="card__img-container">
             <img src="./images/illustration-thank-you.svg" alt="Illustration thank you" aria-hidden="true">
           </div>
-          <p class="description description--rating" id="selectedRatingMessage"></p>
+
+          <p class="card__description card__description--rating" id="selectedRatingMessage"></p>
+
           <h2 class="card__title">Thank you!</h2>
+
           <p class="card__description">
             We appreciate you taking the time to give a rating. If you ever need more support,
             don’t hesitate to get in touch!
           </p>
+
         </div>
       </article>
     </div>

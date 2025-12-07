@@ -1,0 +1,70 @@
+/*-------------------------- *\
+  #FORM 
+\*---------------------------*/
+
+.options__fieldset {
+  border: none;
+}
+.options__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+input[type="radio"]:checked + .option {
+  background-color: var(--orange-500);
+}
+.option {
+  display: block;
+  position: relative;
+  width: 3rem;
+  height: 0;
+  padding-block-end: 3rem;
+  text-align: center;
+  line-height: 3;
+  background-color: var(--grey-900);
+  color: var(--white);
+  border-radius: 50%;
+  box-shadow: var(--shadow-medium);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.option:hover {
+  background-color: var(--white);
+  color: var(--grey-950);
+}
+
+.button {
+  width: 100%;
+  padding: var(--spacing-md);
+  margin-block-start: var(--spacing-lg);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-medium);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button--submit {
+  background-color: var(--orange-500);
+  color: var(--grey-950);
+}
+.button--submit:hover,
+.button--submit:focus-visible {
+  background-color: var(--white);
+  color: var(--grey-950);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .option,
+  .button {
+    transition-duration: 0.01ms;
+  }
+}

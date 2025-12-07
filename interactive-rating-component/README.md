@@ -19,6 +19,10 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 
+## Screenshot
+
+![Desktop screenshot](./images/screenshot.png)
+
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-08-pm-GsQy](https://www.frontendmentor.io/solutions/interactive-rating-component-08-pm-GsQy)
