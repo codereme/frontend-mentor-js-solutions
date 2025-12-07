@@ -7,7 +7,7 @@
 <a href="https://github.com/codereme/frontend-mentor-js-solutions/tree/main/interactive-rating-component">Code</a>
 </div>
 
-![Preview](./interactive-rating-component/design/preview.jpg)
+![Preview](./interactive-rating-component/images/screenshot.png)
 
 ## Ping Coming Soon Page
 
@@ -16,7 +16,7 @@
 <a href="https://github.com/codereme/frontend-mentor-js-solutions/tree/main/ping-coming-soon-page">Code</a>
 </div>
 
-![Preview](./ping-coming-soon-page/design/preview.jpg)
+![Preview](./ping-coming-soon-page/images/screenshot.png)
 
 ## Base Apparel Coming Soon Page
 
@@ -25,4 +25,4 @@
 <a href="https://github.com/codereme/frontend-mentor-js-solutions/tree/main/base-apparel-coming-soon-page">Code</a>
 </div>
 
-![Preview](./base-apparel-coming-soon-page/design/preview.jpg)
+![Desktop screenshot](./base-apparel-coming-soon-page/assets/images/screenshot.png)
