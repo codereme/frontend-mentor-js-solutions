@@ -27,7 +27,7 @@ Users should be able to:
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-08-pm-GsQy](https://www.frontendmentor.io/solutions/interactive-rating-component-08-pm-GsQy)
 
-- Live Site URL: [https://codereme.github.io/interactive-rating-component/index.html](https://codereme.github.io/interactive-rating-component/index.html)
+- Live Site URL: [https://codereme.github.io/frontend-mentor-js-solutions/interactive-rating-component/index.html](https://codereme.github.io/frontend-mentor-js-solutions/interactive-rating-component/index.html)
 
 ## Author
 
