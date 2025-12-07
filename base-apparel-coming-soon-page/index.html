@@ -5,10 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"> -->
 
   <title>Frontend Mentor | Base Apparel coming soon page</title>
+
   <meta name="description" content="Solution to Base apparel coming soon page challenge on Frontend Mentor.">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
   <link rel="stylesheet" href="./css/fonts.css">
@@ -20,58 +24,61 @@
 
 <body>
   <div class="page-container">
-    <header>
-      <div class="container">
-        <img class="logo" src="./assets/images/logo.svg" alt="Base Apparel logo">
+    <header class="header">
+      <div class="header__container">
+        <img class="header__logo" src="./assets/images/logo.svg" alt="Base Apparel logo">
       </div>
     </header>
     <main>
 
-      <section>
-        <div class="container-hero">
-          <div class="container-img">
+      <section class="hero">
+        <div class="hero__container">
+
+          <div class="hero__img-container">
             <picture>
-              <source media="(min-width: 1024px)" srcset="./assets/images/hero-desktop.jpg">
-              <img class="hero-img" src="./assets/images/hero-mobile.jpg"
+              <source media="(min-width: 768px)" srcset="./assets/images/hero-desktop.jpg">
+              <img class="hero__img" src="./assets/images/hero-mobile.jpg"
                 alt="Fashion model representing Base Apparel's brand style" fetchpriority="high">
             </picture>
           </div>
 
-          <div class="container container-bg">
-            <div class="col">
-              <h1 class="title"><span class="title-light">We're</span> coming soon</h1>
-              <p class="description">
-                Hello fellow shoppers! We're currently building our new fashion store.
-                Add your email below to stay up-to-date with announcements and our launch deals.
-              </p>
+          <div class="hero__content">
+            <h1 class="hero__title"><span class="hero__title hero__title--light">We're</span> coming soon</h1>
+            <p class="hero__description">
+              Hello fellow shoppers! We're currently building our new fashion store.
+              Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
 
-              <form class="form" id="email-form" novalidate>
-                <div class="form-group">
-                  <div class="input-group">
-                    <label class="sr-only" for="email-input">
-                      Email address
-                    </label>
+            <form class="form" id="email-form" novalidate>
+              <div class="form-group">
 
-                    <input class="input" type="email" name="email" id="email-input" placeholder="Email Address">
+                <div class="input-group">
+                  <label class="sr-only" for="email-input">
+                    Email address
+                  </label>
 
-                    <div class="icons-wrapper">
-                      <img class="error-icon" id="errorIcon" src="./assets/images/icon-error.svg" alt="Error icon"
+                  <input class="input" type="email" name="email" id="email-input" placeholder="Email Address">
+
+                  <div class="icons-wrapper">
+                    <img class="error-icon" id="errorIcon" src="./assets/images/icon-error.svg" alt="Error icon"
+                      aria-hidden="true">
+                    <button class="btn-submit" type="submit" aria-label="Submit">
+                      <img class="btn-icon" src="./assets/images/icon-arrow.svg" alt="Icon submit button"
                         aria-hidden="true">
-                      <button class="btn-submit" type="submit" aria-label="Submit">
-                        <img class="btn-icon" src="./assets/images/icon-arrow.svg" alt="Icon submit button"
-                          aria-hidden="true">
-                      </button>
-                    </div><!-- end of icons-wrapper -->
-                  </div> <!-- end of input-group -->
-                  <p class="error-message">
-                    Please provide a valid email
-                  </p>
-                </div> <!-- end of form-group -->
-              </form>
+                    </button>
+                  </div><!-- end of icons-wrapper -->
 
-            </div><!-- end of col -->
-          </div> <!-- enf of container -->
-        </div> <!-- end of container-hero -->
+                </div> <!-- end of input-group -->
+
+                <p class="error-message">
+                  Please provide a valid email
+                </p>
+              </div> <!-- end of form-group -->
+            </form>
+
+          </div><!-- end of hero__content -->
+
+        </div> <!-- end of hero__container -->
       </section>
 
     </main>

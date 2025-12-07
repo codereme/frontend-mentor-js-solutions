@@ -1,7 +1,10 @@
+/*-------------------------- *\
+  #FORM 
+\*---------------------------*/
 .form {
   inline-size: 100%;
   max-inline-size: 30rem;
-  padding-block: var(--spacing-sm);
+  padding-block: var(--spacing-md);
 }
 .form-group {
   inline-size: 100%;
@@ -16,7 +19,7 @@
   inline-size: 100%;
   min-inline-size: 0;
 
-  padding: var(--spacing-sm); /* same button paading */
+  padding: var(--spacing-md); /* same button paading */
   font-size: var(--fs-md);
 
   border: 1px solid var(--pink-400);
@@ -48,7 +51,7 @@
   justify-content: center;
 
   width: clamp(4rem, 5vw, 6rem);
-  padding: clamp(0.7rem, 1.5vw, 0.8rem);
+  padding: var(--spacing-md);
 
   border: none;
   border-radius: var(--border-radius-lg);
