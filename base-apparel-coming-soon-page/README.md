@@ -20,6 +20,10 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 
+## Screenshot
+
+![Desktop screenshot](./assets/images/screenshot.png)
+
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/responsive-coming-soon-page-with-email-validation-iW9majYJF8](https://www.frontendmentor.io/solutions/responsive-coming-soon-page-with-email-validation-iW9majYJF8)
