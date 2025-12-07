@@ -21,6 +21,10 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 
+## Screenshot
+
+![Desktop screenshot](./images/screenshot.png)
+
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/ping-coming-soon-page-with-email-validation-pBnr8CL2qu](https://www.frontendmentor.io/solutions/ping-coming-soon-page-with-email-validation-pBnr8CL2qu)

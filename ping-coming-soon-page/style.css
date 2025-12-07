@@ -1,15 +1,20 @@
-/* 
-- Reset
-- Custom properties
-- Layout
-- Typography
-- Images
-- Form
-- Social Media links
-- Media Queries
-- Media reduce motion
+/** 
+* CONTENTS
+*
+* RESET
+* GLOBAL STYLES
+* TYPOGRAPHY
+* IMAGES
+* FORM
+* SOCIAL-LINKS
+* LAYOUT
+* MEDIA-QUERIES
 */
-/* Reset */
+
+/*-------------------------- *\
+  #RESET 
+\*---------------------------*/
+
 *,
 *::before,
 *::after {
@@ -17,7 +22,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Custom properties */
+
+/*-------------------------- *\
+  #GLOBAL-STYLES 
+\*---------------------------*/
+
 :root {
   /* Colors */
   --blue-500: hsl(223, 87%, 63%);
@@ -32,84 +41,26 @@
   --ff-body: "Libre Franklin", sans-serif;
 
   --fs-base: 20px;
-  --fs-sm: clamp(0.65rem, calc(0.5vw + 0.662rem), 0.75rem); /* 13px - 15px*/
-  --fs-md: clamp(0.8rem, calc(1vw + 0.662rem), 0.9rem); /* 16px - 18px*/
-  --fs-lg: clamp(1.4rem, calc(2vw + 0.662rem), 2.1rem); /* 28px - 42px*/
+  --fs-sm: clamp(0.65rem, calc(0.5vw + 0.662rem), 0.75rem);
+  --fs-md: clamp(0.9rem, calc(1vw + 0.662rem), 1rem);
+  --fs-lg: clamp(1.2rem, calc(2vw + 0.662rem), 1.8rem);
 
   --fw-light: 300;
   --fw-semibold: 600;
   --fw-bold: 700;
 
   /* Spacings */
-  --spacing-sm: 0.4rem; /* 8px */
-  --spacing-md: 0.8rem; /* 16px */
-  --spacing-lg: 1.8rem; /* 32px */
+  --spacing-sm: 0.6rem;
+  --spacing-md: 0.8rem;
+  --spacing-lg: 1.2rem;
 
   /* Border radius */
-  --border-radius-lg: 24px;
+  --border-radius-lg: 1.2rem;
 
   /* Box shadows */
-  --shadow-medium: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
+  --shadow-medium: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
 }
-html {
-  font-family: var(--ff-body);
-  font-size: var(--fs-base);
-}
-/* Layout */
-.page-container {
-  min-height: 100vh;
-  background-color: var(--white);
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--spacing-lg);
-  padding-block: var(--spacing-lg);
-}
-/* Typography */
-.content-text {
-  text-align: center;
-}
-.title {
-  font-size: var(--fs-lg);
-  font-weight: var(--fw-light);
-  color: var(--gray-400);
-}
-.title span {
-  font-weight: var(--fw-semibold);
-  color: var(--blue-950);
-}
-.description {
-  font-size: var(--fs-md);
-  font-weight: var(--fw-light);
-  color: var(--blue-950);
-  margin-block-start: var(--spacing-md);
-}
-.attribution {
-  font-size: var(--fs-sm);
-  font-weight: var(--fw-light);
-  color: var(--gray-400);
-}
-/* Images */
-.img-container {
-  width: 100%;
-  max-width: 40rem;
-  padding-block: var(--spacing-lg);
-}
-.stats-img {
-  max-inline-size: 100%;
-  block-size: auto;
-  box-shadow: var(--shadow-medium);
-}
-/* Form */
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-md);
-  width: 80%;
-  max-width: 20rem;
-}
+
 /* Utilities for email label*/
 .sr-only {
   /* Visually hides element but keeps it accesible for screen readers */
@@ -124,16 +75,81 @@ html {
   border-width: 0;
 }
 
+html {
+  font-family: var(--ff-body);
+  font-size: var(--fs-base);
+}
+
+/*-------------------------- *\
+  #TYPOGRAPHY 
+\*---------------------------*/
+
+.content-text {
+  text-align: center;
+}
+.title {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-light);
+  color: var(--gray-400);
+}
+.title-highlight {
+  font-weight: var(--fw-semibold);
+  color: var(--blue-950);
+}
+.description {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-light);
+  color: var(--blue-950);
+  margin-block-start: var(--spacing-md);
+}
+.attribution {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-light);
+  color: var(--gray-400);
+}
+
+/*-------------------------- *\
+  #IMAGES 
+\*---------------------------*/
+.logo {
+  inline-size: 3.5rem;
+  block-size: auto;
+}
+.img-container {
+  inline-size: 100%;
+  max-inline-size: 30rem;
+}
+.stats-img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+/*-------------------------- *\
+  #FORM 
+\*---------------------------*/
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+
+  padding-block: var(--spacing-lg);
+}
+.input-group {
+  inline-size: 100%;
+}
+
 .input {
-  padding: var(--spacing-md);
-  width: 100%;
+  inline-size: 100%;
+  padding: var(--spacing-sm);
+
   font-size: var(--fs-md);
   text-indent: 10px;
   border: 1px solid var(--blue-200);
   border-radius: var(--border-radius-lg);
 }
 .button {
-  padding: var(--spacing-md);
+  padding: var(--spacing-sm);
   border: none;
   border-radius: var(--border-radius-lg);
 
@@ -171,12 +187,18 @@ html {
   pointer-events: none;
   box-shadow: none;
 }
-/* Social media links */
+
+/*-------------------------- *\
+  #SOCIAL-LINKS 
+\*---------------------------*/
+
 .social-list {
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: var(--spacing-sm);
+  margin-block-end: var(--spacing-lg);
 }
 .social-link {
   text-decoration: none;
@@ -184,8 +206,8 @@ html {
   align-items: center;
   justify-content: center;
 
-  width: 2.3rem;
-  height: 2.3rem;
+  inline-size: 2.3rem;
+  block-size: 2.3rem;
 
   padding: var(--spacing-sm);
   border: 1px solid var(--blue-200);
@@ -193,8 +215,8 @@ html {
   transition: 0.2s ease-in-out;
 }
 .social-icon {
-  width: 1.25rem;
-  height: 1.25rem;
+  inline-size: 1.25rem;
+  block-size: 1.25rem;
   color: var(--blue-500);
   transition: 0.2s ease-in-out;
 }
@@ -204,19 +226,40 @@ html {
 .social-link:hover .social-icon {
   color: var(--white);
 }
+
+/*-------------------------- *\
+  #LAYOUT 
+\*---------------------------*/
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 100vh;
+
+  margin-inline: auto;
+  background-color: var(--white);
+}
+.container {
+  max-inline-size: 1100px;
+  padding: var(--spacing-lg);
+}
+
+/*-------------------------- *\
+  #MEDIA-QUERIES 
+\*---------------------------*/
+
 @media (min-width: 48rem) {
   .form {
     flex-direction: row;
-    justify-content: center;
     align-items: flex-start;
-    max-width: 40rem;
-    height: 4rem;
-  }
-  .input {
-    width: 19.5rem;
+    justify-content: center;
+
+    block-size: 6rem; /* for error message */
   }
   .button {
-    width: 12rem;
+    inline-size: 11rem;
   }
   /* Classes for input validation with JavaScript */
   .error-message {

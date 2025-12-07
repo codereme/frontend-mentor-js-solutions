@@ -5,28 +5,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Ping coming soon page</title>
+
   <meta name="description" content="Solution to Ping coming soon page challenge on Frontend Mentor">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
   <link rel="stylesheet" href="./style.css">
   <script src="./main.js" defer></script>
 </head>
 
 <body>
   <div class="page-container">
+
     <header>
       <div class="container">
         <img class="logo" src="./images/logo.svg" alt="Logo Pin" width="86" height="26">
       </div>
     </header>
+
     <main>
+
       <section>
+
         <div class="container">
+
           <div class="content-text">
-            <h1 class="title">We are launching <span>soon!</span></h1>
-            <p class="description">Subscribe and get notified</p>
+            <h1 class="title">
+              We are launching <span class="title-highlight">soon!</span>
+            </h1>
+            <p class="description">
+              Subscribe and get notified
+            </p>
           </div>
 
           <form class="form" novalidate>
@@ -37,6 +51,7 @@
               <input class="input" type="email" id="email-input" placeholder="Your email address...">
               <p class="error-message"></p>
             </div>
+
             <button class="button" type="submit" id="btn-subscribe">
               Notify me
             </button>
@@ -52,6 +67,7 @@
 
     <footer>
       <div class="container">
+
         <nav class="footer-nav">
           <ul class="social-list">
             <li>
@@ -77,13 +93,14 @@
             </li>
           </ul>
         </nav>
+
         <small class="attribution">
           &copy; Copyright Ping. All rights reserved.
         </small>
       </div>
     </footer>
-  </div>
 
+  </div> <!-- end of page-container -->
 
 </body>
 
