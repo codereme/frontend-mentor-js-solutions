@@ -23,7 +23,7 @@
 
 ## Newsletter sign up form with success message
 
-Live site: [view here](https://codereme.github.io/frontend-mentor-js-solutions/newsletter-sign-up-with-success-message/index.html)
-Code: [view here](https://github.com/codereme/frontend-mentor-js-solutions/tree/main/newsletter-sign-up-with-success-message)
+- Live site: [view here](https://codereme.github.io/frontend-mentor-js-solutions/newsletter-sign-up-with-success-message/index.html)
+- Code: [view here](https://github.com/codereme/frontend-mentor-js-solutions/tree/main/newsletter-sign-up-with-success-message)
 
 ![Desktop screenshot](./newsletter-sign-up-with-success-message/assets/images/screenshot.png)

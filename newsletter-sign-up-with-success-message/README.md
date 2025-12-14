@@ -30,7 +30,7 @@ Users should be able to:
 
 - Solution URL: [view here](https://www.frontendmentor.io/solutions/)
 
-- Live Site URL: [view here](https://github.com/codereme/frontend-mentor-js-solutions/tree/main/newsletter-sign-up-with-success-message)
+- Live Site URL: [view here](https://github.com/codereme/frontend-mentor-js-solutions/tree/main/newsletter-sign-up-with-success-message/index.html)
 
 ## Author
 
