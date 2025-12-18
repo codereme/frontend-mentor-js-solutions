@@ -7,7 +7,8 @@
 
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
-  <meta name="description" content="Solution Newletter sign up form with success message challenge on Frontend Mentor">
+  <meta name="description"
+    content="Solution to Newsletter sign up form with success message challenge on Frontend Mentor">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
@@ -20,9 +21,10 @@
 
 <body>
   <main>
+
     <div class="container">
 
-      <article class="card card--subscription" id="cardSubscription">
+      <article class="card  card--subscription" id="cardSubscription">
 
         <header class="card__header">
           <picture>
@@ -30,13 +32,16 @@
 
             <source media="(min-width: 400px)" srcset="./assets/images/illustration-sign-up-tablet.svg">
 
-            <img class="card__image" src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+            <img class="card__image" src="./assets/images/illustration-sign-up-mobile.svg"
+              alt="Data analytics dashboard with charts">
           </picture>
         </header>
+
 
         <div class="card__body">
 
           <div class="card__content">
+
             <h1 class="card__title">
               Stay updated!
             </h1>
@@ -55,7 +60,9 @@
                 And much more!
               </li>
             </ul>
+
           </div> <!-- card content end -->
+
 
           <!-- Sign-up form start -->
           <form class="form" novalidate id="form">
@@ -64,57 +71,67 @@
               <label class="form__label" for="email">
                 Email address
               </label>
-
-              <span class="error-message">Valid email required</span>
+              <span class="error-message" aria-live="polite">Valid email required</span>
             </div>
 
-            <input class="input" id="email" type="text" placeholder="email@company.com">
+            <input class="input" id="email" name="email" type="email" placeholder="email@company.com">
 
-            <button class="button button--submit" type="submit" id="btnSubmit">
+            <button class="button  button--submit" type="submit" id="btnSubmit">
               Subscribe to monthly newsletter
             </button>
 
-          </form>
-          <!-- Sign-up form end -->
+          </form> <!-- Sign-up form end -->
 
-        </div>
+        </div> <!-- card body end -->
       </article>
 
 
       <!-- Success message start -->
-      <article class="card card--confirmation hidden" id="cardConfirmation">
+      <article class="card  card--confirmation  hidden" id="cardConfirmation">
 
         <div class="card__body">
 
           <div class="card__content">
-            <img class="card__icon" src="./assets/images/icon-success.svg" alt="" aria-hidden="true">
+
+            <img class="card__icon" src="./assets/images/icon-success.svg" alt="Icon success" aria-hidden="true">
 
             <h2 class="card__title">
               Thanks for subscribing!
             </h2>
+
             <p class="card__text">
               A confirmation email has been sent to
               <span id="emailUser"></span>.
               Please open it and click the button inside to confirm your subscription.
             </p>
 
-            <button class="button button--dismiss" id="btnConfirmation">
+            <button class="button  button--dismiss" type="button" id="btnConfirmation">
               Dismiss message
             </button>
-          </div>
-        </div>
-      </article>
-      <!-- Success message end -->
+
+          </div> <!-- card content end -->
+
+        </div> <!-- card body end -->
+
+      </article> <!-- Success message end -->
+
 
     </div> <!-- container end -->
   </main>
 
-  <div class="attribution">
-    Challenge by <a class="attribution__link" href=" https://www.frontendmentor.io?ref=challenge"
-      target="_blank">Frontend Mentor</a>.
-    Coded by <a class="attribution__link" href="https://github.com/codereme">@codereme</a>.
-  </div>
 
+
+
+
+  <footer>
+
+    <div class="attribution">
+      Challenge by <a class="attribution__link" href=" https://www.frontendmentor.io?ref=challenge"
+        target="_blank">Frontend Mentor</a>.
+      Coded by <a class="attribution__link" href="https://github.com/codereme">@codereme</a>.
+    </div>
+
+  </footer>
 </body>
 
 </html>
